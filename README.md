@@ -11,7 +11,7 @@ paper: [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Ap
 |:-------------------: |:--------------:| 
 |MobileNet   |[Google Drive](https://drive.google.com/open?id=0ByXcv9gLjrVcSk4yUVUzamEzMnc)|
 
-These pretrained models are manually converted from https://github.com/shicai/MobileNet-Caffe ,put the pretrained model under `/DenseNet/model/` file.
+These pretrained models are manually converted from https://github.com/shicai/MobileNet-Caffe ,put the pretrained model under `/mobilenet-MXNet/model/` file.
 
 * I produce two ways of image data reading:
 
@@ -20,7 +20,7 @@ These pretrained models are manually converted from https://github.com/shicai/Mo
 * Change some configuration in `run_train_rec.sh`, for example: `--epoch` and `--model` are corresponding to the pretrained model, `--data-train` is your train `.rec` file, `--save-result` is the train result you want to save, `--num-examples` is the number of your training data, `--save-name` is the name of final model.
 * Run
 ```
-sh run_train_red.sh
+sh run_train_rec.sh
 ```
 
 **If you want to use `.lst` file and image to train your model:**
