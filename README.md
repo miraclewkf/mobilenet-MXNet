@@ -17,16 +17,16 @@ These pretrained models are manually converted from https://github.com/shicai/Mo
 
 **If you want to use `.rec` file to train your model:**
 
-** Change some configuration in `run_train_rec.sh`, for example: `--epoch` and `--model` are corresponding to the pretrained model, `--data-train` is your train `.rec` file, `--save-result` is the train result you want to save, `--num-examples` is the number of your training data, `--save-name` is the name of final model.
-** Run
+* Change some configuration in `run_train_rec.sh`, for example: `--epoch` and `--model` are corresponding to the pretrained model, `--data-train` is your train `.rec` file, `--save-result` is the train result you want to save, `--num-examples` is the number of your training data, `--save-name` is the name of final model.
+* Run
 ```
 sh run_train_red.sh
 ```
 
 **If you want to use `.lst` file and image to train your model:**
 
-** Change some configuration in `run_train_lst.sh`, for example: `--epoch` and `--model` are corresponding to the pretrained model, `--data-train` is your train `.lst` file, `--image-train` is your train image file, `--save-result` is the train result you want to save, `--num-examples` is the number of your training data, `--save-name` is the name of final model.
-** Run
+* Change some configuration in `run_train_lst.sh`, for example: `--epoch` and `--model` are corresponding to the pretrained model, `--data-train` is your train `.lst` file, `--image-train` is your train image file, `--save-result` is the train result you want to save, `--num-examples` is the number of your training data, `--save-name` is the name of final model.
+* Run
 ```
 sh run_train_lst.sh
 ```
